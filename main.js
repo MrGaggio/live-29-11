@@ -20,12 +20,26 @@ console.log(numbers); */
 
 
 // chiedere numero all'utente che viene usato come cubo
-const numeroN = parseInt(prompt('inserisci un numero'))
+/* const numeroN = parseInt(prompt('inserisci un numero')) */
 
 // genera un numero base da 1 a 10
-const numeroBase = Math.floor(Math.random() * 10) +1;
+/* const numeroBase = Math.floor(Math.random() * 10) +1; */
 
 // calcola il cubo del numero base e numero inserito dall'utente
-const cubo = Math.pow(numeroBase, numeroN)
+/* const cubo = Math.pow(numeroBase, numeroN)
 
-console.log(cubo);
+
+console.log(cubo); */
+
+
+
+const userNumber = parseInt(prompt('inserisci un numero'))
+
+
+// calcolare il cubo per il numero delle volte che l'utente inserisce
+for (let i = 0; i < userNumber; i++) {
+    console.log(Math.pow(i, 3)); 
+    
+}
+
+
